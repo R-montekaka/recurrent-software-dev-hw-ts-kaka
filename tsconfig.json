@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["ES2015"],
+    "module": "CommonJS",
+    "outDir": "lib",
+    "sourceMap": true,
+    "target": "ES2015",
+    "strict": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": [
+      "src"
+  ],
+  "exclude": [
+    "./test/",
+    "./node_modules/",
+    "./lib/"
+  ]
+}
+
