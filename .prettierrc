@@ -1,0 +1,10 @@
+# Prettier Configuration
+# https://prettier.io/docs/en/options.html
+
+# DON’T DELETE THIS FILE
+# Some editors check for a .prettierrc to determine if prettier should be run
+
+{
+  "tabWidth": 2 ,
+  "trailingComma": "es5"
+}
