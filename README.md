@@ -46,6 +46,8 @@ At Recurrent, we work with data we collect from people’s electric vehicles
 (EVs). Currently, we collect between one and three data points a day (usually)
 from each vehicle. The data we collect includes the following information:
 
+- `vin`: A unique identifier tied to the vehicle, expressed as a
+  string.
 - `charge_reading`: The vehicle’s State of Charge (SoC), a decimal number
   representing the current charge level of the battery in terms of percentage.
   (For example, 0.33 means the battery is 33% charged.)
@@ -59,11 +61,27 @@ from each vehicle. The data we collect includes the following information:
   the reading, expressed as a boolean.
 - `created_at`: Timestamp of the reading, expressed in a string of the format
   "yyyy-mm-dd hh:mm:ss", the timezone is UTC for all readings.
-- `vehicle_id`: A unique identifier tied to the vehicle, expressed as a
-  string.
 
-The comma-separated-values(csv) file in this repo contains a collection of data
-points over the course of a few weeks for 5 different vehicles.
+There is an API available at http://localhost:3000/api/ with the following endpoints:
+
+- `/vehicles` - This will return all the vehicles in the system as an array, each with the following data:
+  - `vin`
+  - `mmy` which will contain:
+    - `make`
+    - `model`
+    - `year`
+  - `color`
+  - `created_at` <- the database creation date, not the date the vehicle was manufactured
+- `/vehicles/[vin]` - This will return the same information as `/vehicles` but for only the vehicle that is specified in the vin
+- `/datapoints` - This will return all vehicle charge status information as an array, each with the following data:
+  - `vin`
+  - `charge_reading`
+  - `range_estimate`
+  - `odometer`
+  - `plugged_in`
+  - `charging`
+  - `created_at`
+- `/vehicles/[vin]/datapoints` - This will return an array of datapoints for the specified vehicle
 
 ## Task 1: Write some code and a README
 
