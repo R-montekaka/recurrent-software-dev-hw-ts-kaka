@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "vin": "WBAVC73557K974873",
+    "mmy": { "make": "Chevrolet", "model": "Corvette", "year": 1969 },
+    "color": "Mauv",
+    "created_at": "2019-05-11"
+  },
+  {
+    "id": 2,
+    "vin": "WA1DGAFP9FA773943",
+    "mmy": { "make": "Pontiac", "model": "Vibe", "year": 2006 },
+    "color": "Blue",
+    "created_at": "2019-10-02"
+  },
+  {
+    "id": 3,
+    "vin": "WAULC58EX3A844205",
+    "mmy": { "make": "Toyota", "model": "Tacoma Xtra", "year": 1997 },
+    "color": "Turquoise",
+    "created_at": "2019-10-24"
+  },
+  {
+    "id": 4,
+    "vin": "5N1AN0NU0AC039636",
+    "mmy": { "make": "Jeep", "model": "Grand Cherokee", "year": 1999 },
+    "color": null,
+    "created_at": "2019-11-11"
+  },
+  {
+    "id": 5,
+    "vin": "WDCYC3HF0FX245394",
+    "mmy": { "make": "Subaru", "model": "Forester", "year": 2006 },
+    "color": "Khaki",
+    "created_at": "2019-11-30"
+  },
+  {
+    "id": 6,
+    "vin": "2G4GU5GVXD9610691",
+    "mmy": { "make": "Mercedes-Benz", "model": "S-Class", "year": 2006 },
+    "color": "Teal",
+    "created_at": "2019-10-12"
+  },
+  {
+    "id": 7,
+    "vin": "2C4RDGBG1FR599763",
+    "mmy": { "make": "Ford", "model": "Laser", "year": 1986 },
+    "color": "Purple",
+    "created_at": "2019-06-30"
+  },
+  {
+    "id": 8,
+    "vin": "1G4GL5E34DF606308",
+    "mmy": { "make": "Suzuki", "model": "XL7", "year": 2006 },
+    "color": "Aquamarine",
+    "created_at": "2019-12-06"
+  },
+  {
+    "id": 9,
+    "vin": "5FRYD3H4XGB904321",
+    "mmy": { "make": "Saab", "model": "9-3", "year": 2008 },
+    "color": "Crimson",
+    "created_at": "2019-01-05"
+  },
+  {
+    "id": 10,
+    "vin": "JTHKD5BH2F2186844",
+    "mmy": { "make": "Toyota", "model": "Celica", "year": 2002 },
+    "color": "Crimson",
+    "created_at": "2019-10-29"
+  }
+]
