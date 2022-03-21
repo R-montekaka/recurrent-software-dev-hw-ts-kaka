@@ -1,0 +1,992 @@
+[
+  {
+    "vin": "2C4RDGBG1FR599763",
+    "charge_reading": 0.2,
+    "range_estimate": 40,
+    "odometer": 1200,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-01 12:01:03"
+  },
+  {
+    "vin": "2C4RDGBG1FR599763",
+    "charge_reading": 0.73,
+    "range_estimate": 80,
+    "odometer": 1200,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-01 22:30:01"
+  },
+  {
+    "vin": "2C4RDGBG1FR599763",
+    "charge_reading": 1,
+    "range_estimate": 87,
+    "odometer": 1200,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-02 12:12:03"
+  },
+  {
+    "vin": "2C4RDGBG1FR599763",
+    "charge_reading": 0.6,
+    "range_estimate": 60,
+    "odometer": 1250,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-03 20:00:37"
+  },
+  {
+    "vin": "2C4RDGBG1FR599763",
+    "charge_reading": 0.3,
+    "range_estimate": 45,
+    "odometer": 1275,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-04 8:55:12"
+  },
+  {
+    "vin": "2C4RDGBG1FR599763",
+    "charge_reading": 0.3,
+    "range_estimate": 44,
+    "odometer": 1275,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-05 13:12:32"
+  },
+  {
+    "vin": "2C4RDGBG1FR599763",
+    "charge_reading": 0.3,
+    "range_estimate": 44,
+    "odometer": 1275,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-06 12:23:56"
+  },
+  {
+    "vin": "2C4RDGBG1FR599763",
+    "charge_reading": 0.3,
+    "range_estimate": 45,
+    "odometer": 1275,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-08 18:23:12"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 267.63,
+    "odometer": 56271,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-01 17:24:47"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 267.63,
+    "odometer": 56271,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-01 18:56:05"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 267.63,
+    "odometer": 56271,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-01 19:30:02"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 267.63,
+    "odometer": 56271,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-01 23:22:39"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 266.3,
+    "odometer": 56271,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-02 6:04:12"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.9,
+    "range_estimate": 250.2,
+    "odometer": 56273,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-02 7:40:14"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.8,
+    "range_estimate": 244.35,
+    "odometer": 56278,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-02 19:05:11"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.89,
+    "range_estimate": 268.32,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-03 15:14:23"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-04 3:51:01"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-04 5:58:52"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 136.2,
+    "odometer": 26132,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-01 13:24:59"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 136.9,
+    "odometer": 26132,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-01 13:26:19"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.6,
+    "range_estimate": 140.3,
+    "odometer": 26142,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-02 6:55:17"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.52,
+    "range_estimate": 138.2,
+    "odometer": 26147,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-03 1:32:41"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 120.2,
+    "odometer": 26147,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-03 1:44:41"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 120.2,
+    "odometer": 26147,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-03 19:26:44"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 120.2,
+    "odometer": 26147,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-04 2:15:46"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.6,
+    "range_estimate": 200.32,
+    "odometer": 26147,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-04 20:56:04"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.7,
+    "range_estimate": 214.37,
+    "odometer": 26147,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-05 7:05:51"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 1,
+    "range_estimate": 258.8,
+    "odometer": 26147,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-05 14:41:27"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.9,
+    "range_estimate": 252.5,
+    "odometer": 26150,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-06 2:58:50"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.9,
+    "range_estimate": 250.2,
+    "odometer": 26150,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-06 7:14:03"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 1,
+    "range_estimate": 260.6,
+    "odometer": 26150,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-06 13:09:33"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.9,
+    "range_estimate": 250.36,
+    "odometer": 26154,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-07 12:39:17"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.9,
+    "range_estimate": 251,
+    "odometer": 26154,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-07 14:35:12"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 1,
+    "range_estimate": 260.2,
+    "odometer": 26154,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-07 18:06:44"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 1,
+    "range_estimate": 261.82,
+    "odometer": 26154,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-08 12:59:53"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.9,
+    "range_estimate": 249.83,
+    "odometer": 26159,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-09 5:05:08"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.9,
+    "range_estimate": 250,
+    "odometer": 26159,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-09 18:03:55"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 1,
+    "range_estimate": 259.8,
+    "odometer": 26159,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-09 21:14:13"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 1,
+    "range_estimate": 259.32,
+    "odometer": 26159,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-10 14:29:38"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 110.3,
+    "odometer": 26170,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-11 0:41:31"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 600,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-06 5:55:29"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 600,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-06 12:14:44"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 600,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-06 13:26:27"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 0.78,
+    "range_estimate": 100.45,
+    "odometer": 620,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-07 4:33:06"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 0.86,
+    "range_estimate": 109.6,
+    "odometer": 620,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-07 23:09:18"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 0.65,
+    "range_estimate": 89.3,
+    "odometer": 632,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-08 6:49:05"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 0.4,
+    "range_estimate": 50.4,
+    "odometer": 643,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-08 21:07:48"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 0.4,
+    "range_estimate": 49.8,
+    "odometer": 643,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-08 23:15:12"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 643,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-09 8:08:50"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 643,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-09 10:02:58"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 643,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-10 5:56:56"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 667,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-11 2:33:01"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 667,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-11 16:49:56"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 0.87,
+    "range_estimate": 110,
+    "odometer": 676,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-12 7:01:09"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 0.79,
+    "range_estimate": 101.36,
+    "odometer": 680,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-12 19:41:25"
+  },
+  {
+    "vin": "WDCYC3HF0FX245394",
+    "charge_reading": 1,
+    "range_estimate": 120.3,
+    "odometer": 699,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-13 2:16:34"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115.2,
+    "odometer": 6002,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-01 21:21:11"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115.2,
+    "odometer": 6002,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-02 20:57:52"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115.2,
+    "odometer": 6002,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-03 17:43:51"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.75,
+    "range_estimate": 109.67,
+    "odometer": 6008,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-04 8:06:08"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115.6,
+    "odometer": 6008,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-04 15:44:28"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115,
+    "odometer": 6008,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-05 11:38:49"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115.6,
+    "odometer": 6008,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-05 22:48:15"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115,
+    "odometer": 6012,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-06 11:38:12"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.4,
+    "range_estimate": 55.34,
+    "odometer": 6052,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-06 21:13:01"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.4,
+    "range_estimate": 54.2,
+    "odometer": 6052,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-07 0:22:49"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.2,
+    "range_estimate": 20.2,
+    "odometer": 6075,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-07 23:31:27"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0,
+    "range_estimate": 20.2,
+    "odometer": 6075,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-08 6:28:08"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115,
+    "odometer": 6075,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-09 1:59:47"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.4,
+    "range_estimate": 45,
+    "odometer": 6120,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-09 18:49:02"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.45,
+    "range_estimate": 47.65,
+    "odometer": 6122,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-10 4:57:07"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.68,
+    "range_estimate": 100.32,
+    "odometer": 6122,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-10 14:07:04"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.32,
+    "range_estimate": 32.36,
+    "odometer": 6140,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-11 13:51:11"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.27,
+    "range_estimate": 22.1,
+    "odometer": 6145,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-11 15:04:19"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.76,
+    "range_estimate": 109.34,
+    "odometer": 6145,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-11 20:16:39"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 114.69,
+    "odometer": 6145,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-12 3:43:36"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115.67,
+    "odometer": 6145,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-12 15:02:20"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115.67,
+    "odometer": 6145,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-13 12:18:28"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.8,
+    "range_estimate": 115.67,
+    "odometer": 6145,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-13 20:46:38"
+  },
+  {
+    "vin": "5N1AN0NU0AC039636",
+    "charge_reading": 0.39,
+    "range_estimate": 40.6,
+    "odometer": 6163,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-14 5:39:22"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-04 16:06:27"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-05 9:37:10"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-05 18:05:28"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-06 12:52:58"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-06 16:27:03"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-06 23:04:48"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-07 7:15:10"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56306,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-07 15:08:01"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.7,
+    "range_estimate": 268.35,
+    "odometer": 56320,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-08 1:00:00"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.7,
+    "range_estimate": 268.35,
+    "odometer": 56320,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-08 5:54:29"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.7,
+    "range_estimate": 268.35,
+    "odometer": 56320,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-08 20:23:26"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.65,
+    "range_estimate": 268.35,
+    "odometer": 56322,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-09 4:13:40"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.32,
+    "range_estimate": 268.35,
+    "odometer": 56343,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-09 6:45:26"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.27,
+    "range_estimate": 268.35,
+    "odometer": 56346,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-09 18:31:13"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 0.86,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": true,
+    "created_at": "2020-01-09 22:27:57"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-10 3:39:03"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-10 18:28:18"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-11 16:23:53"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-12 3:02:46"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-12 10:45:02"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-13 1:41:31"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-13 21:25:51"
+  },
+  {
+    "vin": "WBAVC73557K974873",
+    "charge_reading": 1,
+    "range_estimate": 268.35,
+    "odometer": 56353,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-14 14:29:00"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 112.7,
+    "odometer": 26171,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-11 9:59:55"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 119.36,
+    "odometer": 26171,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-12 7:39:27"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 119.36,
+    "odometer": 26171,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-12 22:50:26"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.5,
+    "range_estimate": 119.36,
+    "odometer": 26171,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-13 11:52:57"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.49,
+    "range_estimate": 123.2,
+    "odometer": 26173,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-13 13:49:38"
+  },
+  {
+    "vin": "WAULC58EX3A844205",
+    "charge_reading": 0.49,
+    "range_estimate": 123.34,
+    "odometer": 26173,
+    "plugged_in": false,
+    "charging": false,
+    "created_at": "2020-01-14 12:24:08"
+  },
+  {
+    "vin": "1G4GL5E34DF606308",
+    "charge_reading": 0.76,
+    "range_estimate": 144.36,
+    "odometer": 100000,
+    "plugged_in": true,
+    "charging": false,
+    "created_at": "2020-01-23 10:40:02"
+  }
+]
