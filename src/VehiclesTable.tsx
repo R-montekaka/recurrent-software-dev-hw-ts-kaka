@@ -33,7 +33,7 @@ export default function VehiclesTable() {
       .then((data: Vehicle[]) => {
         setData(data);
         setLoading(false);
-      })
+      });
   }, []);
 
   return (
