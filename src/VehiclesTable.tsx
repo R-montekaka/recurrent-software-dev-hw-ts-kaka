@@ -34,9 +34,6 @@ export default function VehiclesTable() {
         setData(data);
         setLoading(false);
       })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
   }, []);
 
   return (
