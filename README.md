@@ -17,7 +17,7 @@ from each vehicle.
 We have a page that shows a list of all the vehicles in the database.
 It looks like the following:
 
-![inital vehicles list page](vehicles-list.png)
+![initial vehicles list page](vehicles-list.png)
 
 Since then, we have added more data in the API and have started to gather data
 points for some of the vehicles.
