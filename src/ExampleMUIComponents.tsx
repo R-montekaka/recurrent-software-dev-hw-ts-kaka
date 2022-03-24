@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { makeStyles } from "./makeStyles";
+import { makeStyles } from "@/styles/makeStyles";
 
 import {
   Add as AddIcon,

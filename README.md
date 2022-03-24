@@ -17,7 +17,7 @@ from each vehicle.
 We have a page that shows a list of all the vehicles in the database.
 It looks like the following:
 
-TODO: Add screenshot of starting application
+![initial vehicles list page](vehicles-list.png)
 
 Since then, we have added more data in the API and have started to gather data
 points for some of the vehicles.
@@ -48,7 +48,7 @@ The API is available at http://localhost:3000/api/ with the following endpoints:
   - `charging`: Whether or not the vehicle is actively charging at the time of
     the reading, expressed as a boolean.
   - `created_at`: Timestamp of the reading, expressed in a string of the format
-  "yyyy-mm-dd hh:mm:ss", the timezone is UTC for all readings.
+    "yyyy-mm-dd hh:mm:ss", the timezone is UTC for all readings.
 - `/vehicles/[vin]/datapoints` - This will return an array of datapoints for the specified vehicle
 
 We have two main tasks:
@@ -63,12 +63,13 @@ of what is already there.
 
 Add a 'View Vehicle' page to show all the vehicle's information. Also include the following
 information derived from the vehicle's `datapoints`:
+
 1.  `Charged Above 80%`: This field should indicate if the vehicle
-reported at least one `charge_reading` above 80% over the whole time
-period.
+    reported at least one `charge_reading` above 80% over the whole time
+    period.
 2.  `Average Daily Miles`: This field should show the average daily miles for
-the vehicle over the course of the time period of the dataset. (For example, if the vehicle
-travelled 140 miles over a two week period, this should show 10).
+    the vehicle over the course of the time period of the dataset. (For example, if the vehicle
+    travelled 140 miles over a two week period, this should show 10).
 
 TODO: add mockups here
 

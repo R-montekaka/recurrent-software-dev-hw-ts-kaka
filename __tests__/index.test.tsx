@@ -1,12 +1,19 @@
 import { render, screen } from "@testing-library/react";
+import fetchMock from "jest-fetch-mock";
 import Home from "@/pages/index";
 
 describe("Home", () => {
-  it("renders a heading", () => {
+  beforeEach(() => {
+    fetchMock.resetMocks();
+  });
+
+  it("renders a heading", async () => {
+    fetchMock.mockResponseOnce(JSON.stringify([]));
+
     render(<Home />);
 
-    const heading = screen.getByRole("heading", {
-      name: /Recurrent Homework/i,
+    const heading = await screen.findByRole("heading", {
+      name: /Vehicle Inventory/i,
     });
 
     expect(heading).toBeInTheDocument();
