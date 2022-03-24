@@ -5,7 +5,7 @@
 Thank you for applying to Recurrent and participating in this front-end assignment.
 The goal of this assignment is to give us a look at your development approach and
 give us something to talk about in the face-to-face interviews. We do not expect
-you to complete everything single thing in this assignment! Just spend two to four
+you to complete everything single thing in this assignment! Just spend two to three
 hours working on it and then submit it. That should give us plenty to talk about.
 
 ## The assignment
@@ -31,7 +31,7 @@ The API is available at http://localhost:3000/api/ with the following endpoints:
     - `model`
     - `year`
   - `color`
-  - `created_at` <- the database creation date, not the date the vehicle was manufactured
+  - `created_at` - The database creation date, not the date the vehicle was manufactured
 - `/vehicles/[vin]` - This will return the same information as `/vehicles` but for only the vehicle that is specified in the vin
 - `/datapoints` - This will return all vehicle charge status information as an array, each with the following data:
   - `vin`: A unique identifier tied to the vehicle, expressed as a
