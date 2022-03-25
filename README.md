@@ -75,14 +75,19 @@ vehicle's `datapoints`:
 
 TODO: add mockups here
 
-## Task 3: Write a ticket for a teammate to implement a new field
+## Task 3: Write a ticket for a teammate to implement a filtering feature
 
-Imagine a teammate is planning to expand on your work and implement a new field
-in the next sprint. Write a ticket that roughly outlines the work to be done to
-implement this new field:
+Imagine a teammate is planning to expand on your work and implement a new
+feature in the next sprint. This feature will allow the user to filter the
+vehicles list page based on vehicles that had charged above a given
+`charge_reading` percentage over the whole time period.
 
-- `Drove Nowhere`: This field should show how many days a vehicle wasn't driven
-  between the first and last days of it's data points.
+This repo contains an api endpoint that will do that filtering, if passed a
+valid charge percentage value. Your task is to write up a ticket outlining the
+work and any questions that might need answering in order to implement this
+feature.  Include a rough mock-up of any front end user experience if
+applicable. (No judgement about drawing skills, just something that helps get a
+visual point across if needed!)
 
 Include this write-up in your README file. We expect to see you call out where
 requirements are ambiguous and suggest some potential approaches, but avoid
