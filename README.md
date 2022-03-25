@@ -73,7 +73,7 @@ vehicle's `datapoints`:
     the vehicle over the course of the time period of the dataset. (For example, if the vehicle
     travelled 140 miles over a two week period, this should show 10).
 
-TODO: add mockups here
+![initial vehicles list page](details-page.png)
 
 ## Task 3: Write a ticket for a teammate to implement a filtering feature
 
