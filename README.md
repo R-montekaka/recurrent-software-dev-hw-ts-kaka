@@ -61,8 +61,10 @@ of what is already there.
 
 ## Task 2: Add a new view page for vehicles
 
-Add a 'View Vehicle' page to show all the vehicle's information. Also include the following
-information derived from the vehicle's `datapoints`:
+Add a 'View Vehicle' page to show all the vehicle's information. Add the link
+to the details page in the Vehicles list under a column named "View Vehicle".
+On the vehicle details page include the following information derived from the
+vehicle's `datapoints`:
 
 1.  `Charged Above 80%`: This field should indicate if the vehicle
     reported at least one `charge_reading` above 80% over the whole time
