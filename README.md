@@ -102,7 +102,7 @@ A couple of notes:
     love to hear your thought-process and tradeoffs you made.
   - A discussion of what would you would think about improving if you spent
     more time on it (and why).
-  - The ticket write-up from Task 2.
+  - The ticket write-up from Task 3.
 
 ## How to use
 
