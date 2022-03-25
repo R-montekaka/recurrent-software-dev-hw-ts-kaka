@@ -19,7 +19,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
   },
 }));
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
-  "&:hover": { backgroundColor: theme.palette.action.hover, cursor: "pointer" },
+  "&:hover": { backgroundColor: theme.palette.action.hover },
 }));
 
 export default function VehiclesTable() {
