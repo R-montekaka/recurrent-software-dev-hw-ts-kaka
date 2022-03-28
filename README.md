@@ -50,8 +50,10 @@ The API is available at http://localhost:3000/api/ with the following endpoints:
   - `created_at`: Timestamp of the reading, expressed in a string of the format
     "yyyy-mm-dd hh:mm:ss", the timezone is UTC for all readings.
 - `/vehicles/[vin]/datapoints` - This will return an array of datapoints for the specified vehicle
+- Note: if we don't have data for something, we want the text "N/A" to show up in that spot so that
+  the user knows that we are missing the data.
 
-We have two main tasks:
+We have two coding tasks and one writing task:
 
 ## Task 1: Build out the vehicle list page
 
@@ -66,7 +68,7 @@ to the details page in the Vehicles list under a column named "View Vehicle".
 On the vehicle details page include the following information derived from the
 vehicle's `datapoints`:
 
-1.  `Charged Above 80%`: This field should indicate if the vehicle
+1.  `Charged Above 80%`: This field should indicate whether the vehicle
     reported at least one `charge_reading` above 80% over the whole time
     period.
 2.  `Average Daily Miles`: This field should show the average daily miles for
@@ -89,20 +91,9 @@ feature.  Include a rough mock-up of any front end user experience if
 applicable. (No judgement about drawing skills, just something that helps get a
 visual point across if needed!)
 
-Include this write-up in your README file. We expect to see you call out where
+Include this write-up in your SUMMARY file. We expect to see you call out where
 requirements are ambiguous and suggest some potential approaches, but avoid
 prescribing exact implementation details.
-
-A couple of notes:
-
-- If we don't have data for something, we want the text "N/A" to show up in that spot so that
-  the user knows that we are missing the data.
-- Document your process in a SUMMARY.md file. This should include:
-  - Any assumptions and decisions you made along the way! We’d
-    love to hear your thought-process and tradeoffs you made.
-  - A discussion of what would you would think about improving if you spent
-    more time on it (and why).
-  - The ticket write-up from Task 3.
 
 ## How to use
 
@@ -146,14 +137,14 @@ More information about routing to different pages can be found [in the documenta
   ready.
 - Submit your solution source code files to us by emailing them to us. You can
   choose one of the following ways:
-  - Email a link to a github repo
+  - Email a link to a private github repo
   - Email a zip file containing the files
   - Email a link to a zip file hosted on a cloud service (dropbox, etc…)
 - We prioritize readable code that meets the requirements.
 - We expect to see some automated tests for important functionality.
 - Most importantly, we expect you to include a SUMMARY.md. This should contain:
   - Information about assumptions and decisions you made along the way! We’d
-    love to hear your thought-process and tradeoffs you made.
+    love to hear your thought-process and any tradeoffs you made.
   - A discussion of what would you would think about improving if you spent
     more time on it (and why).
-  - The ticket write-up from Task 2.
+  - The ticket write-up from Task 3.
