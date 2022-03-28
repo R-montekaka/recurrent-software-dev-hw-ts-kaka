@@ -132,8 +132,13 @@ It includes `@mui/material` and its peer dependencies, including `emotion`, the 
 
 ### The starting pages & components
 
-TODO: describe what the starting example is. Where are the files? What are some
-examples to look at for AJAX calls, etc.
+If you're running the application locally, there's a starting page with a bunch
+of examples at http://localhost:3000/about.
+
+This page shows a whole bunch of MUI components using a predefined style. You
+can find the component that renders all of these in
+`src/ExampleMUIComponents.tsx`. This is meant to be a starting place for you to
+see what different things will look like in our style!
 
 More information about routing to different pages can be found [in the documentation](https://mui.com/guides/routing/#next-js).
 
@@ -157,3 +162,23 @@ More information about routing to different pages can be found [in the documenta
   - A discussion of what would you would think about improving if you spent
     more time on it (and why).
   - The ticket write-up from Task 2.
+
+## Questions we'd like you to consider during this assignment
+
+Here's a look into our brains at Recurrent -- we often ask these types of
+questions while doing our work.
+
+ - What is a good balance between reusable code that’s maintainable vs. super
+   custom and a super great experience for a specific use case?
+ - Consider adding tests where it’s useful, but we don’t need to test
+   everything
+ - When we write tickets we often don’t prescribe an implementation, but
+   describe that the outcome should be and any questions and considerations
+   along the way
+ - Whenever choosing a component, please discuss why you chose the component.
+   Discuss any thoughts you have on things like accessibility, ease of
+   implementation, etc. For example, choosing to use a `Paper` component vs. a
+   `Card` or choosing a `Link` vs. `Button` (or even which type of `Link`).
+ - We also like to consider code organization. Does it make sense for a
+   calculation to be a part of a component file, a separate module, or even an
+   api concern?
