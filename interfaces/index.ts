@@ -9,3 +9,13 @@ export interface Vehicle {
   color: string | null;
   created_at: string;
 }
+
+export interface DataPoint {
+  vin: string;
+  charge_reading: number;
+  range_estimate: number;
+  odometer: number;
+  plugged_in: boolean;
+  charging: boolean;
+  created_at: string;
+}

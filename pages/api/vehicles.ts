@@ -1,11 +1,11 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import vehicles from "../../fixtures/vehicles.json";
 import datapoints from "../../fixtures/data_points.json";
+import { DataPoint, Vehicle } from "interfaces";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const {
     query: { chargedAbove },
-    method,
   } = req;
 
   if (chargedAbove === undefined || chargedAbove === "") {
@@ -15,7 +15,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       error: `chargedAbove should be a number. Received ${chargedAbove}`,
     });
   } else {
-    const matching_datapoints: String[] = new Set(
+    const matching_datapoints: Observable<String[]> = new Set(
       datapoints.map((dp: DataPoint) => {
         if (dp.charge_reading > chargedAbove) return dp.vin;
       })

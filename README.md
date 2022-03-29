@@ -71,9 +71,10 @@ vehicle's `datapoints`:
 1.  `Charged Above 80%`: This field should indicate whether the vehicle
     reported at least one `charge_reading` above 80% over the whole time
     period.
-2.  `Average Daily Miles`: This field should show the average daily miles for
-    the vehicle over the course of the time period of the dataset. (For example, if the vehicle
-    travelled 140 miles over a two week period, this should show 10).
+2.  `Latest Odometer`: This field should show the latest odometer reading for
+    the vehicle.
+3.  `Latest Datapoint Timestamp`: This field should show the timestamp for
+    most recent data point recorded for the vehicle.
 
 ![initial vehicles list page](details-page.png)
 
@@ -81,19 +82,24 @@ vehicle's `datapoints`:
 
 Imagine a teammate is planning to expand on your work and implement a new
 feature in the next sprint. This feature will allow the user to filter the
-vehicles list page based on vehicles that had charged above a given
-`charge_reading` percentage over the whole time period.
+vehicles list page based on vehicles that had been charged above a given
+`charge_reading` percentage over the whole time period. For example, if a
+vehicle has data points with charge readings: `[.3, .9, .8, .8]`, we would not
+say the vehicle had been charged above 90%, however, we would say the vehicle
+had been charged above 80%.
 
 This repo contains an api endpoint that will do that filtering, if passed a
 valid charge percentage value. Your task is to write up a ticket outlining the
 work and any questions that might need answering in order to implement this
-feature.  Include a rough mock-up of any front end user experience if
-applicable. (No judgement about drawing skills, just something that helps get a
-visual point across if needed!)
+feature. We have included a rough mock-up of the front end user experience,
+but feel free to update it or call out suggestions for a better UX.
 
-Include this write-up in your SUMMARY file. We expect to see you call out where
-requirements are ambiguous and suggest some potential approaches, but avoid
-prescribing exact implementation details.
+![ticket mockup](ticket-mockup.png)
+
+Include your suggestions, and other questions and comments in your `SUMMARY.md`
+file. We expect to see you call out where requirements or designs are ambiguous
+and suggest some potential approaches, but try to avoid prescribing exact
+implementation details.
 
 ## How to use
 
@@ -159,17 +165,17 @@ More information about routing to different pages can be found [in the documenta
 Here's a look into our brains at Recurrent -- we often ask these types of
 questions while doing our work.
 
- - What is a good balance between reusable code that’s maintainable vs. super
-   custom and a super great experience for a specific use case?
- - Consider adding tests where it’s useful, but we don’t need to test
-   everything
- - When we write tickets we often don’t prescribe an implementation, but
-   describe that the outcome should be and any questions and considerations
-   along the way
- - Whenever choosing a component, please discuss why you chose the component.
-   Discuss any thoughts you have on things like accessibility, ease of
-   implementation, etc. For example, choosing to use a `Paper` component vs. a
-   `Card` or choosing a `Link` vs. `Button` (or even which type of `Link`).
- - We also like to consider code organization. Does it make sense for a
-   calculation to be a part of a component file, a separate module, or even an
-   api concern?
+- What is a good balance between reusable code that’s maintainable vs. super
+  custom and a super great experience for a specific use case?
+- Consider adding tests where it’s useful, but we don’t need to test
+  everything
+- When we write tickets we often don’t prescribe an implementation, but
+  describe that the outcome should be and any questions and considerations
+  along the way
+- Whenever choosing a component, please discuss why you chose the component.
+  Discuss any thoughts you have on things like accessibility, ease of
+  implementation, etc. For example, choosing to use a `Paper` component vs. a
+  `Card` or choosing a `Link` vs. `Button` (or even which type of `Link`).
+- We also like to consider code organization. Does it make sense for a
+  calculation to be a part of a component file, a separate module, or even an
+  api concern?
