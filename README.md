@@ -148,8 +148,8 @@ More information about routing to different pages can be found [in the documenta
   ready.
 - Submit your solution source code files to us by emailing them to us. You can
   choose one of the following ways:
+  - Upload your project to the submission link at the bottom of the assignment email
   - Email a link to a private github repo
-  - Email a zip file containing the files
   - Email a link to a zip file hosted on a cloud service (dropbox, etc…)
 - We prioritize readable code that meets the requirements.
 - We expect to see some automated tests for important functionality.
