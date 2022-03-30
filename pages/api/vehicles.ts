@@ -10,14 +10,15 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
   if (chargedAbove === undefined || chargedAbove === "") {
     res.status(200).json(vehicles);
-  } else if (isNaN(chargedAbove)) {
+  } else if (Number.isNaN(chargedAbove)) {
     res.status(400).json({
       error: `chargedAbove should be a number. Received ${chargedAbove}`,
     });
   } else {
-    const matching_datapoints: Observable<String[]> = new Set(
+    const matching_datapoints: Set<String | undefined> = new Set(
       datapoints.map((dp: DataPoint) => {
-        if (dp.charge_reading > chargedAbove) return dp.vin;
+        if (dp.charge_reading > Number.parseFloat(chargedAbove as string))
+          return dp.vin;
       })
     );
     const matchingVehicles = vehicles.filter((vehicle: Vehicle) =>
