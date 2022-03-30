@@ -18,4 +18,15 @@ describe("Home", () => {
 
     expect(heading).toBeInTheDocument();
   });
+  it("renders vehicle vins", async () => {
+    fetchMock.mockResponseOnce(
+      JSON.stringify([{ vin: "ABC" }, { vin: "DEF" }])
+    );
+
+    render(<Home />);
+
+    const vin1 = await screen.findByText("ABC");
+
+    expect(vin1).toBeInTheDocument();
+  });
 });

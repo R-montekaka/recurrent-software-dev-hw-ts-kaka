@@ -90,7 +90,7 @@ const ExampleMUIComponents = () => {
           <Button href="#" color="primary">
             Regular Link
           </Button>
-          <Button>Outlined</Button>
+          <Button variant="outlined">Outlined</Button>
         </Box>
         <Box p={2} className={classes.spacedComponents}>
           <Typography variant="h4">TextFields</Typography>
@@ -99,12 +99,7 @@ const ExampleMUIComponents = () => {
             id="outlined-required"
             label="Required"
             defaultValue="Hello World"
-          />
-          <TextField
-            disabled
-            id="outlined-disabled"
-            label="Disabled"
-            defaultValue="Hello World"
+            helperText={"This field is required"}
           />
           <TextField
             id="outlined-number"
@@ -131,12 +126,6 @@ const ExampleMUIComponents = () => {
                 </InputAdornment>
               ),
             }}
-          />
-          <TextField
-            id="outlined-error"
-            label="Required Field"
-            error={true}
-            helperText={"This field is required"}
           />
         </Box>
         <Box p={2} className={classes.spacedComponents}>

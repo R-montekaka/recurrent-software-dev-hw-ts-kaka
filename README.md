@@ -73,7 +73,7 @@ vehicle's `datapoints`:
     period.
 2.  `Latest Odometer`: This field should show the latest odometer reading for
     the vehicle.
-3.  `Latest Datapoint Timestamp`: This field should show the timestamp for
+3.  `Latest Data Point Timestamp`: This field should show the timestamp for
     most recent data point recorded for the vehicle.
 
 ![initial vehicles list page](details-page.png)
