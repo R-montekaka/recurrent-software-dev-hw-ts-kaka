@@ -19,3 +19,9 @@ export interface DataPoint {
   charging: boolean;
   created_at: string;
 }
+
+export interface VehicleDataPoint {
+  has_charge_above: boolean;
+  created_at: string;
+  odometer: number;
+}

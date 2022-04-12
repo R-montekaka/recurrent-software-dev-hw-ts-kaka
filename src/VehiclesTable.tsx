@@ -63,7 +63,9 @@ export default function VehiclesTable() {
                 <StyledTableCell component="th" scope="row">{vehicle.mmy.make}</StyledTableCell>
                 <StyledTableCell component="th" scope="row">{vehicle.mmy.model}</StyledTableCell>
                 <StyledTableCell component="th" scope="row">{vehicle.mmy.year}</StyledTableCell>
-                <StyledTableCell component="th" scope="row">{vehicle.color}</StyledTableCell>
+                <StyledTableCell component="th" scope="row">
+                  {vehicle.color && <div style={{backgroundColor: vehicle.color, width: "36px", height: "16px"}}/>}
+                </StyledTableCell>
                 <StyledTableCell component="th" scope="row">
                   <Link href={`/vehicles/${vehicle.vin}`} color="secondary">View Vehicle</Link>
                 </StyledTableCell>
