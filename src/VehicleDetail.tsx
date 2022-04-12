@@ -35,20 +35,21 @@ const VehicleDetail = ({vin}: IVehicleDeatil) => {
       .then((res) => res.json())
       .then((datapoints: DataPoint[]) => {
         
-        // need to find 2 thing, 1. any datapoint is above 80%, 2. the latest datapoint
-        datapoints.sort((a: DataPoint, b: DataPoint) => {
-          if(a < b) {
-            return 1;
-          }
-          if( a > b) {
-            return -1;
-          }
-          return 0;
-        })
-
-        const has_charge_above = datapoints.filter((dp: DataPoint) => dp.charge_reading >= 0.8).length > 0
-        const {created_at, odometer} = datapoints[0];
-        setData({created_at, odometer, has_charge_above})
+        if(datapoints.length > 0) {
+          datapoints.sort((a: DataPoint, b: DataPoint) => {
+            if(a < b) {
+              return 1;
+            }
+            if( a > b) {
+              return -1;
+            }
+            return 0;
+          })        
+  
+          const has_charge_above = datapoints.filter((dp: DataPoint) => dp.charge_reading >= 0.8).length > 0
+          const {created_at, odometer} = datapoints[0];
+          setData({created_at, odometer, has_charge_above})
+        }
       })
     }
   }, [vin])
