@@ -10,6 +10,7 @@ import Paper from "@mui/material/Paper";
 
 import { styled } from "@mui/material/styles";
 import { Vehicle } from "interfaces";
+import Link from "./Link";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -39,25 +40,38 @@ export default function VehiclesTable() {
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 300 }} aria-label="vehicle table">
-        <TableHead>
-          <TableRow>
-            <StyledTableCell>
-              {isLoading ? <CircularProgress sx={{ margin: "4px" }} /> : "VIN"}
-            </StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {data?.map((vehicle) => (
-            <StyledTableRow
-              key={vehicle.vin}
-              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
-            >
-              <StyledTableCell component="th" scope="row">
-                {vehicle.vin}
-              </StyledTableCell>
-            </StyledTableRow>
-          ))}
-        </TableBody>
+        {
+          isLoading ? <CircularProgress sx={{ margin: "4px" }} /> : 
+          <>
+          <TableHead>          
+            <TableRow>
+              <StyledTableCell>VIN</StyledTableCell>
+              <StyledTableCell>Make</StyledTableCell>
+              <StyledTableCell>Model</StyledTableCell>
+              <StyledTableCell>Year</StyledTableCell>
+              <StyledTableCell>Color</StyledTableCell>
+              <StyledTableCell>Actions</StyledTableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {data?.map((vehicle) => (
+              <StyledTableRow
+                key={vehicle.vin}
+                sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+              >
+                <StyledTableCell component="th" scope="row">#{vehicle.vin}</StyledTableCell>                
+                <StyledTableCell component="th" scope="row">{vehicle.mmy.make}</StyledTableCell>
+                <StyledTableCell component="th" scope="row">{vehicle.mmy.model}</StyledTableCell>
+                <StyledTableCell component="th" scope="row">{vehicle.mmy.year}</StyledTableCell>
+                <StyledTableCell component="th" scope="row">{vehicle.color}</StyledTableCell>
+                <StyledTableCell component="th" scope="row">
+                  <Link href={`/vehicles/${vehicle.vin}`} color="secondary">View Vehicle</Link>
+                </StyledTableCell>
+              </StyledTableRow>
+            ))}
+          </TableBody>
+          </>          
+        }        
       </Table>
     </TableContainer>
   );
